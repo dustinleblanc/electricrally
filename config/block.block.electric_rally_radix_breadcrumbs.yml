@@ -1,0 +1,22 @@
+uuid: fc301510-95e4-448a-90c9-3850ceb1b9af
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - electric_rally_radix
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: electric_rally_radix_breadcrumbs
+theme: electric_rally_radix
+region: header
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

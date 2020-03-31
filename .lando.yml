@@ -1,0 +1,33 @@
+name: electric-rally
+recipe: pantheon
+config:
+  framework: drupal8
+  site: electric-rally
+  id: 61aa79b8-c425-4b9d-8ce8-4e2592733949
+excludes:
+  - vendor
+  - web/core
+  - web/modules/contrib
+  - web/themes/contrib
+  - web/themes/custom/electric_rally_radix/node_modules
+env_file:
+  - .env
+proxy:
+  node:
+    - bs-rally.lndo.site:3000
+services:
+  appserver:
+    overrides:
+      environment:
+        DRUSH_OPTIONS_URI: http://bs-rally.lndo.site
+  node:
+    type: node
+    command: cd /app/web/themes/custom/electric_rally_radix && npm run watch
+    overrides:
+      environment:
+        BS_DOMAIN: http://appserver_nginx
+        BS_SOCKET_DOMAIN: http://bs-rally.lndo.site
+        BS_SOCKET_PORT: 80
+    build:
+      - cd /app/web/themes/custom/electric_rally_radix && npm install
+      - cd /app/web/themes/custom/electric_rally_radix && npm run dev

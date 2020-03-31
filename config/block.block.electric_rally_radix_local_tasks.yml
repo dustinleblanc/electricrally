@@ -1,0 +1,22 @@
+uuid: e6a56398-4f7a-42ea-b700-0755b4361473
+langcode: en
+status: true
+dependencies:
+  theme:
+    - electric_rally_radix
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: electric_rally_radix_local_tasks
+theme: electric_rally_radix
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: e5d78ef9-3ed8-4504-a27f-ac8640266f0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - electric_rally_radix
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: electric_rally_radix_messages
+theme: electric_rally_radix
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
