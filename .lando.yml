@@ -22,6 +22,9 @@ services:
         DRUSH_OPTIONS_URI: http://bs-rally.lndo.site
   node:
     type: node
+    ssl: true
+    # Browsersync takes a while to spin up, don't wait
+    scanner: false
     command: cd /app/web/themes/custom/electric_rally_radix && npm run watch
     overrides:
       environment:
