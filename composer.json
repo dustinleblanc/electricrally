@@ -22,7 +22,7 @@
         "drupal/radix": "^4.7",
         "drupal/radix_layouts": "^4.1",
         "drush-ops/behat-drush-endpoint": "^9.3",
-        "drush/drush": "~9.0",
+        "drush/drush": "^9.7",
         "pantheon-systems/drupal-integrations": "^8",
         "pantheon-systems/quicksilver-pushback": "^2",
         "rvtraveller/qs-composer-installer": "^1.1",
