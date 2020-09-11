@@ -4,6 +4,9 @@ config:
   framework: drupal8
   site: electric-rally
   id: 61aa79b8-c425-4b9d-8ce8-4e2592733949
+  cache: false
+  index: false
+  edge: false
 excludes:
   - vendor
   - web/core
