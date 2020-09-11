@@ -1,0 +1,19 @@
+uuid: b210e399-1daf-4351-8dff-30ed63f4d501
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hero_totl
+    - paragraphs.paragraphs_type.hero
+id: paragraph.hero.field_hero_totl
+field_name: field_hero_totl
+entity_type: paragraph
+bundle: hero
+label: 'Hero Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

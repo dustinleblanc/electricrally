@@ -1,0 +1,21 @@
+uuid: 08e73d7c-3e77-429c-9e2e-c4af6d259c67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hero_lead_text
+    - paragraphs.paragraphs_type.hero
+  module:
+    - text
+id: paragraph.hero.field_hero_lead_text
+field_name: field_hero_lead_text
+entity_type: paragraph
+bundle: hero
+label: 'Hero Lead Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

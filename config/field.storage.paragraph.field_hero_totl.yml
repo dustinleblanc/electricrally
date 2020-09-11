@@ -1,0 +1,21 @@
+uuid: 51ac25ab-9f24-43c3-b02f-d8cefd2e57af
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_hero_totl
+field_name: field_hero_totl
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

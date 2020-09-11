@@ -1,0 +1,19 @@
+uuid: afbeedb4-58ea-47ba-a09c-6a3fb7ae0b55
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_hero_lead_text
+field_name: field_hero_lead_text
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
